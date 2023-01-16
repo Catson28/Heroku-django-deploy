@@ -8,6 +8,28 @@ Assim, após a leitura, você obterá:
 3.  Como testar a imagem do Docker para o projeto Django no ambiente local.
 4.  Como construir material de front-end para o projeto Django durante a implantação.
 
+# Topicos
+
+### 01 - Heroku Buildpacks e Heroku Container
+### 02 - Construir manifesto e Container Registry
+### 03 - Docker Build x Docker Run
+### 04 - Ambiente
+### 05 - arquivo .dockerignore
+### 06 - Comece a escrever Dockerfile
+### 07 - Servindo recursos estáticos
+### 08 - Criar imagem do Docker
+### 09 - execução do Docker
+### 10 - Servindo arquivos de mídia no Heroku
+### 11 - Suporte a banco de dados remoto
+### 12 - heroku.yml
+
+## Implantar o projeto Django no Heroku
+### 01 - Adicionar complemento de banco de dados
+### 02 - Adicionar AWS ENV
+### 03 - solucionar problemas
+### 04 - Conclusão
+
+
 O código-fonte deste tutorial é [django-heroku](https://github.com/AccordBox/django-heroku) . Eu apreciaria se você pudesse dar uma estrela.
 
 ## 01 - Heroku Buildpacks e Heroku Container
