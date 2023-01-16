@@ -391,7 +391,7 @@ Do [documento Heroku](https://devcenter.heroku.com/articles/container-registry-a
 
 Já instalamos `curl`em nosso`Dockerfile`
 
-## 13 - Implantar o projeto Django no Heroku
+# Implantar o projeto Django no Heroku
 
 Agora, vamos começar a implantar nosso projeto Django no Heorku.
 
@@ -420,7 +420,7 @@ Depois que o código for implantado no Heroku, não se esqueça de adicionar ENV
 
 Em seguida, verifique [https://django-heroku-docker.herokuapp.com/admin/](https://django-heroku-docker.herokuapp.com/admin/) para ver se tudo funciona.
 
-## 14 - Adicionar complemento de banco de dados
+## 01 - Adicionar complemento de banco de dados
 
 Agora você pode adicionar o complemento db à sua instância do Heroku, para que os dados do seu projeto Django sejam persistentes.
 
@@ -445,15 +445,15 @@ Running migrations:
 
 ```
 
-## 15 - Adicionar AWS ENV
+## 02 - Adicionar AWS ENV
 
 Agora você pode adicionar Env `AWS_STORAGE_BUCKET_NAME`, `AWS_ACCESS_KEY_ID`e no Heroku `AWS_SECRET_ACCESS_KEY`e `AWS_S3_REGION_NAME`verificar o recurso de upload de mídia.
 
-## 16 - solucionar problemas
+## 03 - solucionar problemas
 
 Se você encontrar um problema, poderá usar o log do Heroku para verificar mais detalhes.
 
-## 17 - Conclusão
+## 04 - Conclusão
 
 Neste tutorial do Django Heorku, falei sobre como implantar o projeto Django no Heroku usando o Docker.
 
